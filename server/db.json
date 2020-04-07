@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "name": "Henry",
+      "phone": "333-444-555",
+      "email": "henry@qq.com",
+      "id": 1,
+      "age": 18,
+      "companyId": 1
+    },
+    {
+      "name": "Bucky",
+      "phone": "333-444-555",
+      "email": "henry@qq.com",
+      "id": 2,
+      "age": 30,
+      "companyId": 2
+    },
+    {
+      "name": "Emily",
+      "phone": "333-444-555",
+      "email": "henry@qq.com",
+      "id": 3,
+      "age": 11,
+      "companyId": 3
+    },
+    {
+      "name": "Elyse",
+      "phone": "333-444-555",
+      "email": "henry@qq.com",
+      "id": 4,
+      "age": 44,
+      "companyId": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple is good!"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "description": "Microsoft is good!"
+    },
+    {
+      "id": 3,
+      "name": "Google",
+      "description": "Google is good!"
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "title": "werwqe",
+      "body": "qewrtqewrw",
+      "userId": 0,
+      "id": 2
+    },
+    {
+      "title": "werwqe",
+      "body": "qewrtqewrw",
+      "userId": 0,
+      "id": 3
+    }
+  ]
+}

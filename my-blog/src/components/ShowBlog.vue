@@ -22,9 +22,9 @@ export default {
   },
   created() {
     this.$http
-      .get("http://jsonplaceholder.typicode.com/posts")
+      .get("http://localhost:3000/posts")
       .then(function(data) {
-        //console.log(data);
+        console.log(data);
         this.blogs = data.body.slice(0, 10);
         console.log(this.blogs);
       });

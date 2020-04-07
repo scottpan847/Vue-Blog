@@ -1,5 +1,8 @@
 <template>
   <div id="single-blog">
+    <div>
+      <img :src="imgUrl" alt="icon">
+    </div>
     <h1>{{blog.title}}</h1>
     <article>{{blog.body}}</article>
   </div>
@@ -11,12 +14,15 @@ export default {
   data() {
     return {
       id: this.$route.params.id,
-      blog: {}
+      blog: {},
+      imgUrl:""
     };
   },
   created() {
+    let urlTemp="assets/logo.png";
+    this.imgUrl = require("@/"+urlTemp)
     this.$http
-      .get("https://jsonplaceholder.typicode.com/posts/" + this.id)
+      .get("http://localhost:3000/posts/" + this.id)
       .then(function(data) {
         //console.log(data);
         this.blog = data.body;

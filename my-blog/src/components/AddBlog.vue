@@ -60,7 +60,7 @@ export default {
   methods: {
     post: function() {
       this.$http
-        .post("http://jsonplaceholder.typicode.com/posts", {
+        .post("http://localhost:3000/posts", {
           title: this.blog.title,
           body: this.blog.content,
           userId: 0
